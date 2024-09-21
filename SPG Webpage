@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPG Martial Arts</title>
+    <style>
+        body {
+            font-family: 'Garamond', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #e2e2e2;
+            background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+        }
+        header {
+            background-color: #2d2d2d;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 5px solid #4c4c4c;
+            border-top: 5px solid #4c4c4c;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 900px;
+            background-color: #333;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            border: 1px solid #555;
+        }
+        h1, h2 {
+            color: #d4af37;
+            font-family: 'Cinzel', serif;
+        }
+        .instructors {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .instructor {
+            flex: 1 1 calc(50% - 10px);
+            margin: 10px 0;
+        }
+        .instructor img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 2px solid #555;
+        }
+        .schedule img {
+            max-width: 100%;
+            border: 2px solid #555;
+            border-radius: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2d2d2d;
+            color: #fff;
+            border-top: 5px solid #4c4c4c;
+        }
+        /* Celtic/Viking Accent Borders */
+        section, footer, header {
+            background-image: url('https://www.transparenttextures.com/patterns/dark-denim-3.png');
+        }
+        /* Accent Celtic Font for Headers */
+        @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
+        /* Text Shadow Effect for Headers */
+        h1, h2 {
+            text-shadow: 2px 2px 5px #000;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>SPG Martial Arts</h1>
+    <p>Brazilian Jiujitsu & Martial Arts Classes in Swansea</p>
+</header>
+
+<section>
+    <h2>About Us</h2>
+    <p>SPG Martial Arts offers top-level Brazilian jiu-jitsu classes led by Shane Price, a 1st Degree Blackbelt. Shane is a two-time European Nogi Champion and a Brown Belt World Silver Medalist. He also holds Blackbelts in Judo and Kickboxing, and has competed worldwide in these martial arts, in addition to winning an MMA title.</p>
+    <p>Alongside Shane, we have a dedicated team of coaches including Andrew Killen for kids classes, Rob Rutter for fundamentals, and Callum Foster for a Saturday class. All of our instructors bring years of experience to ensure a well-rounded and supportive training environment for all skill levels.</p>
+    <p>We are based in the Warehouse Gym Swansea, a UK award-winning facility where members enjoy full access to both martial arts and gym equipment.</p>
+</section>
+
+<section class="instructors">
+    <h2>Meet the Team</h2>
+    <div class="instructor">
+        <h3>Shane Price</h3>
+        <p>1st Degree Blackbelt | BJJ, Judo, Kickboxing</p>
+        <p>2x European Nogi Champion | MMA Title Holder</p>
+    </div>
+    <div class="instructor">
+        <h3>Andrew Killen</h3>
+        <p>Kids Coach</p>
+    </div>
+    <div class="instructor">
+        <h3>Rob Rutter</h3>
+        <p>Fundamentals Coach</p>
+    </div>
+    <div class="instructor">
+        <h3>Callum Foster</h3>
+        <p>Saturday Blackbelt Instructor</p>
+    </div>
+</section>
+
+<section class="schedule">
+    <h2>Class Schedule</h2>
+    <p>Check out our current timetable below:</p>
+    <img src="timetable.jpg" alt="Current Timetable">
+</section>
+
+<section class="logo">
+    <h2>Our Logo</h2>
+    <img src="spg-logo.jpg" alt="SPG Martial Arts Logo">
+</section>
+
+<footer>
+    <p>SPG Martial Arts &copy; 2024 | Based in The Warehouse Gym, Swansea</p>
+</footer>
+
+</body>
+</html>
